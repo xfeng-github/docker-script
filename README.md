@@ -1,2 +1,6 @@
 # docker-script
-docker container build script
+docker container build script.
+
+Support Windows system and Linux system.
+
+Include bat script and shell script.
