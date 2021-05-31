@@ -1,6 +1,6 @@
 @echo off
 SET CURPATH=%cd%
-SET DATA_PATH=%CURPATH%\nexus-data
+SET DATA_PATH="%CURPATH%\nexus-data"
 
 if not exist %DATA_PATH% (
 	mkdir %DATA_PATH%

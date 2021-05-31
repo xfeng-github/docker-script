@@ -9,7 +9,7 @@ for /f %%i in ('type config\data_directory') do (
   SET DATA_DIRECTORY=%%i
 )
 
-SET DATA_PATH=%CURPATH%\%DATA_DIRECTORY%
+SET DATA_PATH="%CURPATH%\%DATA_DIRECTORY%"
 
 
 if not exist %DATA_PATH% (
