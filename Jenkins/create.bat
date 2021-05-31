@@ -1,6 +1,6 @@
 @echo off
 SET CURPATH=%cd%
-SET DATA_PATH=%CURPATH%\jenkins_home
+SET DATA_PATH="%CURPATH%\jenkins_home"
 
 echo %DATA_PATH%
 
